@@ -49,3 +49,12 @@ body {
 .centerText a {
     text-decoration: none;
 }
+
+.centerText ul li {
+    list-style-type: none;
+}
+
+.centerText ul li a {
+    padding: 8px;
+    text-decoration: none;
+}

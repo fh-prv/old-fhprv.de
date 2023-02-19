@@ -13,6 +13,9 @@ class MainRoute extends Route {
 
         router.get('/', (req, res) => res.status(200).render('index'));
         router.get('/about', (req, res) => res.status(200).render('about'));
+        router.get('/contact', (req, res) => res.status(200).render('contact'));
+        router.get('/projects', (req, res) => res.status(200).render('projects'));
+        router.all('*', (req, res) => res.status(200).render('404'));
     }
 }
 
