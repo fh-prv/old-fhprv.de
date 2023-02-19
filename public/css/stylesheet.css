@@ -11,10 +11,31 @@ body {
     text-decoration: none;
 }
 
+.footer {
+    background-color: #111820;
+    border-radius: 20px;
+    bottom: 0;
+    font-size: small;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a {
+    color: #adadad;
+    padding: 4px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #51f34d;
+    transition: 0.3s;
+}
+
 .navbar {
     background-color: #111820;
     border-radius: 20px;
-    
     float: left;
     width: 100%;
 }
@@ -42,19 +63,32 @@ body {
     align-self: center;
 }
 
-.centerText {
-    text-align: center;
+.about {
+    align-items: center;
+    justify-content: center;
 }
 
-.centerText a {
+.about img {
+    float: left;
+    padding: 40px;
+}
+
+.aboutText {
+    margin: auto;
+    float: left;
+    width: 60%;
+}
+
+.aboutText a {
     text-decoration: none;
 }
 
-.centerText ul li {
+.aboutText ul li {
+    display: inline;
     list-style-type: none;
 }
 
-.centerText ul li a {
+.aboutText ul li a {
     padding: 8px;
     text-decoration: none;
 }
