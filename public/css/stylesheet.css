@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('/fonts/SourceCodePro-Regular.ttf');
+}
+
+body {
+    background-color: #080b0f;
+    color: #ffffff;
+    font-family: 'SourceCodePro';
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #111820;
+    border-radius: 20px;
+    
+    float: left;
+    width: 100%;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #51f34d;
+    transition: 0.3s;
+}
+
+.centerDiv {
+    align-self: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.centerText a {
+    text-decoration: none;
+}

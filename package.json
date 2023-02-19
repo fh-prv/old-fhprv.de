@@ -1,0 +1,30 @@
+{
+  "name": "fhprv.de",
+  "version": "1.0.0",
+  "description": "The official website of fh.prv.",
+  "main": "app.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fh-prv/fhprv.de.git"
+  },
+  "author": "fh.prv <info@fhprv.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fh-prv/fhprv.de/issues"
+  },
+  "homepage": "https://github.com/fh-prv/fhprv.de#readme",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
