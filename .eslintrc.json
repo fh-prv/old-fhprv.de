@@ -9,7 +9,7 @@
       "es2022": true,
       "node": true
     },
-    "ignorePatterns": ["node_modules/"],
+    "ignorePatterns": ["node_modules/", "public/js/*"],
     "rules": {
       "import/order": [
         "error",

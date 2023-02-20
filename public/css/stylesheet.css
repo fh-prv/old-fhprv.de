@@ -11,6 +11,11 @@ body {
     text-decoration: none;
 }
 
+main {
+    opacity: 0;
+    transition: 1s;
+}
+
 .footer {
     background-color: #111820;
     border-radius: 20px;
@@ -21,14 +26,14 @@ body {
     width: 100%;
 }
 
-.footer a {
+.footer span {
     color: #adadad;
     padding: 4px;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.footer a:hover {
+.footer span:hover {
     color: #51f34d;
     transition: 0.3s;
 }
@@ -47,20 +52,16 @@ body {
     padding: 0;
 }
 
-.navbar ul li a {
+.navbar ul li a, span {
     color: #ffffff;
     padding: 8px;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover, span:hover {
     color: #51f34d;
     transition: 0.3s;
-}
-
-.centerDiv {
-    align-self: center;
 }
 
 .about {
@@ -79,7 +80,7 @@ body {
     width: 60%;
 }
 
-.aboutText a {
+.aboutText a, span {
     text-decoration: none;
 }
 
@@ -91,4 +92,47 @@ body {
 .aboutText ul li a {
     padding: 8px;
     text-decoration: none;
+}
+
+.contact {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact img {
+    float: left;
+    padding: 40px;
+}
+
+.contactText {
+    margin: auto;
+    float: left;
+    width: 60%;
+}
+
+.contactText a, span {
+    text-decoration: none;
+}
+
+.contactText ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.contactText ul li a {
+    padding: 8px;
+    text-decoration: none;
+}
+
+.welcomeText {
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 90%;
+    width: 100%;
+    display:flex;
+}
+
+.welcomeText a {
+    text-align: center;
 }
